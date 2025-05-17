@@ -1,8 +1,6 @@
-# Website for NAF's I4N Europe proposal
-
 ## NUCL-AI: Sustainable Electrification of Decentralised Regions through Nuclear Microreactors and AI-based Demand Predictions
 
-Welcome to the official repository for **NUCL-AI** — a research project exploring how **AI-powered microreactors** can bring **clean, reliable, and low-cost energy** to remote and decentralised regions across the globe.
+Welcome to the official repository for **NUCL-AI**, a research project exploring how **AI-powered microreactors** can bring **clean, reliable, and low-cost energy** to remote and decentralised regions across the globe.
 
 ## 📄 About the Project
 
