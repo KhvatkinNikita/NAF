@@ -18,8 +18,8 @@ The development of this project begins as part of the I4N Competetion in Spain: 
 
 In this site, it can be found:
 
-<a href="https://github.com/KhvatkinNikita/NAF/blob/main/files/NUCL_AI.pdf" style="text-decoration:none; padding:10px 20px; background-color:#007bff; color:white; border-radius:5px; font-weight:bold;">📜 The Full Research Paper</a>
-<a href="https://github.com/KhvatkinNikita/NUCL-AI" style="text-decoration:none; padding:10px 20px; background-color:#28a745; color:white; border-radius:5px; font-weight:bold; margin-left:10px;">💻 Source Code</a>
+- <a href="https://github.com/KhvatkinNikita/NAF/blob/main/files/NUCL_AI.pdf" style="text-decoration:none; padding:10px 20px; background-color:#007bff; color:white; border-radius:5px; font-weight:bold;">📜 The Full Research Paper</a>
+- <a href="https://github.com/KhvatkinNikita/NUCL-AI" style="text-decoration:none; padding:10px 20px; background-color:#28a745; color:white; border-radius:5px; font-weight:bold; margin-left:10px;">💻 Source Code</a>
 - 🌎 A vision for an **inclusive, scalable energy transition**
 
 
