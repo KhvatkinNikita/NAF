@@ -1,7 +1,30 @@
-# Website template for an academic paper or article
+# Website for NAF's I4N Europe proposal
 
-🌍 An HTML website template for academic papers
+## NUCL-AI: Sustainable Electrification of Decentralised Regions through Nuclear Microreactors and AI-based Demand Predictions
 
-## Acknowledgments
+Welcome to the official repository for **NUCL-AI** — a research project exploring how **AI-powered microreactors** can bring **clean, reliable, and low-cost energy** to remote and decentralised regions across the globe.
 
-This website template is developed from [the MACHIAVELLI benchmark paper website](https://aypan17.github.io/machiavelli/).
+## 📄 About the Project
+
+The development of this project begins as part of the I4N Competetion in Spain: Innovatom 2025. The focus this year has been the economic development through nuclear technology. Our approach combined microreactors' capabilities for transportation, as well a the power of predictive models based on Deep Learning for energy demand predictions.
+
+### Contents
+
+- ⚛️ **Modular Nuclear Microreactors** (e.g., Westinghouse’s eVinci)  
+- 🤖 **Artificial Intelligence** for predictive energy demand modeling  
+- 🏞️ **Decentralized Energy Planning** for hard-to-reach communities  
+- 📈 **Economic Viability**, with a case study in Acre, Brazil, showing a payback period of just over 8 years  
+- 🌱 A path to **decarbonization**, economic growth, and energy equity
+
+## 📂 What's Inside
+
+In this site, it can be found:
+
+- 📜 **[The Full Research Paper](./paper.pdf)** — detailing methodology, AI modeling, and economic and market analysis  
+- 💻 **[Source Code](./code/)** — including all scripts used for demand prediction model  
+- 🌎 A vision for an **inclusive, scalable energy transition**
+
+
+ 🙏 Acknowledgements
+
+This work was developed as part of the **ENSYGF** initiative and will be presented at the **European Nuclear Young Generation Forum (ENYGF)**. We would like to extend our sincere thanks to **Jóvenes Nucleares** for their support and dedication to fostering the next generation of nuclear professionals in Spain.
