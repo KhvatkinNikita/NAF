@@ -1,3 +1,7 @@
+
+
+<a href="https://khvatkinnikita.github.io/NAF/" style="text-decoration:none; padding:10px 20px; background-color:#007bff; color:white; border-radius:5px; font-weight:bold;">🌐 Website!</a>
+
 ## NUCL-AI: Sustainable Electrification of Decentralised Regions through Nuclear Microreactors and AI-based Demand Predictions
 
 Welcome to the official repository for **NUCL-AI**, a research project exploring how **AI-powered microreactors** can bring **clean, reliable, and low-cost energy** to remote and decentralised regions across the globe.
