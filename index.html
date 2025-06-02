@@ -7,6 +7,17 @@
     <style lang="en" type="text/css" id="dark-mode-native-sheet"></style>
 
   <head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M9MYGVHDRZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M9MYGVHDRZ');
+</script>
+
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
     <meta
@@ -354,25 +365,6 @@
             >
           </div>
         </div>
-        <!-- vistor counter-->
-
-  <p>You are visitor number:</p>
-  <div id="counter">Loading...</div>
-
-  <script>
-    const counterSlug = 'khvatkinnikita.github.io/NAF'; // replace this
-
-    fetch(`https://counterapi.dev/api/v1/${counterSlug}/hit`)
-      .then(res => res.json())
-      .then(data => {
-        document.getElementById('counter').innerText = data.value;
-      })
-      .catch(err => {
-        document.getElementById('counter').innerText = 'Error';
-        console.error('Counter error:', err);
-      });
-  </script>
-        <!-- end vistor counter-->
       </div>
     </div>
     <script src="files/scripts.js"></script>
