@@ -355,90 +355,23 @@
           </div>
         </div>
         <!-- vistor counter-->
-<div id="visitor-counter-container">
-  <div class="counter-display">
-    <i class="counter-icon fas fa-users"></i>
-    <span id="counter-value">0</span>
-    <div class="counter-label">Visitors</div>
-  </div>
-</div>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  // Initialize counter values
-  let allTime = parseInt(localStorage.getItem('visitorCount')) || 0;
-  let today = parseInt(localStorage.getItem('todayCount')) || 0;
-  const now = new Date();
-  const todayDate = now.toDateString();
-  
-  // Reset daily counter if it's a new day
-  if (localStorage.getItem('lastVisitDate') !== todayDate) {
-    localStorage.setItem('lastVisitDate', todayDate);
-    today = 0;
-  }
-  
-  // Increment counters
-  allTime++;
-  today++;
-  
-  // Save to localStorage
-  localStorage.setItem('visitorCount', allTime);
-  localStorage.setItem('todayCount', today);
-  
-  // Animate the counter display
-  const counterEl = document.getElementById('counter-value');
-  let current = 0;
-  const duration = 1500; // Animation duration in ms
-  const increment = Math.ceil(allTime / (duration / 16)); // 60fps
-  
-  const timer = setInterval(() => {
-    current += increment;
-    if (current >= allTime) {
-      current = allTime;
-      clearInterval(timer);
-    }
-    counterEl.textContent = current.toLocaleString();
-  }, 16);
-});
-</script>
+  <p>You are visitor number:</p>
+  <div id="counter">Loading...</div>
 
-<style>
-#visitor-counter-container {
-  display: inline-block;
-  background: rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  padding: 12px 20px;
-  margin: 10px 0;
-  backdrop-filter: blur(5px);
-}
+  <script>
+    const counterSlug = 'khvatkinnikita.github.io/NAF'; // replace this
 
-.counter-display {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-family: Arial, sans-serif;
-}
-
-.counter-icon {
-  color: #4CAF50;
-  font-size: 1.5rem;
-}
-
-#counter-value {
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: #ffffff;
-  min-width: 60px;
-  text-align: center;
-}
-
-.counter-label {
-  font-size: 0.9rem;
-  color: #e0e0e0;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-</style>
+    fetch(`https://counterapi.dev/api/v1/${counterSlug}/hit`)
+      .then(res => res.json())
+      .then(data => {
+        document.getElementById('counter').innerText = data.value;
+      })
+      .catch(err => {
+        document.getElementById('counter').innerText = 'Error';
+        console.error('Counter error:', err);
+      });
+  </script>
         <!-- end vistor counter-->
       </div>
     </div>
